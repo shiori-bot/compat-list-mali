@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@font-face {
+   font-family: mosk;
+   src: url("/assets/resources/mosk_b.ttf");
+}
+header {
+    margin: 0px;
+    padding: 0px;
+}
+}
+body {
+    background-color: #2C2D31;
+    padding: 5px;
+    width: 100%;
+}
+h1 {
+    background-color: #526D82;
+    color: #eceff1;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: mosk;
+}
+h2 {
+    background-color: #526D82;
+    color: #eceff1;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 85%;
+    font-family: fantasy;
+}
+a {
+    color: #eceff1;
+    
+}
+code {
+    color: white;
+    background-color: #37474f;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 1px;
+    border-radius: 15px;
+    margin: 5px;
+    border: 1px solid black;
+    font-family: serif;
+    text-transform: capitalize;
+    font-size: 100%;
+}
+p {
+    color: silver;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    font-size: 100%;
+}
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 15px;
+    font-family: monospace;
+    color: silver;
+    font-size: 100%;
+}
+ul {
+    list-style-type: number;
+    color: silver;
+    font-size: 100%;
+}
+li {
+    border-bottom: 1px solid silver;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    font-size: 100%;
+}
+blockquote {
+    border-left: 3px solid silver;
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 80%;
+    font-size: 100%;
+}
