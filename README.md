@@ -449,3 +449,6 @@ Bowser fury 20-30Fps 'Docked'  (mtk 8100)
 | In-game | Not reported as being finishable, usually has bugs |
 | Playable | Reported as finishable |
 | Perfect | No bugs |
+
+<p style="text-align: center; margin-bottom: 0px; margin-top: 0px;"><a href="https://discordapp.com/users/Wumbee#5124"><img src="/compat-list-mali/assets/images/wum-kun.png" style="vertical-align: middle; width: 10%; height: 10%; border-radius: 50%;" alt="wumbee"></a><strong style="margin-right: 25px; margin-left: 25px; border: 1px solid black; background-color: #526D82; padding: 3px; border-radius: 20px;">Contributors</strong><a href="https://discordapp.com/users/hakurei#2177"><img src="/compat-list-mali/assets/images/shiori-shiomiya.jpg" style="vertical-align: middle; width: 10%; height: 10%; border-radius: 50%;" alt="shiori"></a>
+</p>
