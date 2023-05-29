@@ -1,14 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-div {
+html, head, body {
+    margin: 0;
+    padding: 0;
+}
+button {
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  appearance: none;
+  background-color: inherit;
+}
+.menu {
     position: absolute;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    left: 90%;
+    top: 175px;
+}
+button {
+    transition: transform 0.5s ease-in-out;
+}
+button:hover {
+    transform: rotate(360deg);
 }
 body {
     background-color: black;
-    padding: 5px;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+section {
+    background-color: #2C2D31;
+    padding: 0;
     width: 100%;
     margin: 0;
 }
@@ -21,7 +43,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 100%;
-    font-family: mosk;
+    font-family: fantasy;
 }
 h2 {
     background-color: #526D82;
@@ -55,7 +77,7 @@ p {
     color: silver;
     font-family: 'Merriweather', serif;
     text-align: left;
-    font-size: 100%;
+    font-size: 85%;
 }
 table, td, th {
     border: 1px solid black;
@@ -66,14 +88,17 @@ table, td, th {
     color: silver;
     font-size: 100%;
 }
-ul {
-    list-style-type: number;
+section ul {
     color: silver;
     font-size: 100%;
+    margin: 0;
+    padding: 0;
 }
-li {
+section li {
+    list-style-type: number;
     border-bottom: 1px solid silver;
     margin-bottom: 25px;
+    margin-left: 30px;
     border-radius: 5px;
     font-size: 100%;
 }
@@ -83,4 +108,44 @@ blockquote {
     padding-left: 5px;
     width: 80%;
     font-size: 100%;
+}
+.content {
+  padding: 0;
+  border: none;
+  display: none;
+  overflow: hidden;
+  background-color: black;
+}
+.mbimg {
+    width: 20px;
+    height: 20px;
+}
+span ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background-color: #2C2D31;
+}
+
+span li {
+  float: left;
+}
+
+span li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+span li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+span li a.active {
+  color: white;
+  background-color: #04AA6D;
 }
