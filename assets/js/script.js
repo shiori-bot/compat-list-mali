@@ -1,5 +1,5 @@
 function startLoading() {
-    myVar = setTimeout(showPage, 375);
+    myVar = setTimeout(showPage, 400);
 }
 function showPage() {
     document.getElementById("loading").style.display = "none";
