@@ -5,6 +5,7 @@
 A unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility may differ for non-dimensity Mali chips
 
 <br>
+<a href="#update-v0-changelog"><img id="skyspin" src="/compat-list-mali/assets/images/strato.png" alt="strato"></a>
 
 ### Information
 
