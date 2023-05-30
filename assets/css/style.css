@@ -1,5 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-button {
+first-child {
+    margin: 0;
+}
+body {
+    background-color: #2C2D31;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+/*    overflow: hidden;*/
+}
+.language-plaintext {
+    color: white;
+    background-color: #37474f;
+    padding: 0 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-family: serif;
+    text-transform: capitalize;
+    font-size: 90%;
+    margin: 0;
+}
+#strato-compaitbility-list-v0 {
+    background-color: #526D82;
+    color: #eceff1;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: fantasy;
+    margin-top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+h1 {
+    background-color: #526D82;
+    color: #eceff1;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: fantasy;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+/* button {
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -18,18 +67,7 @@ button {
 button:hover {
     transform: rotate(360deg);
 }
-body {
-    background-color: black;
-    padding: 0;
-    width: 100%;
-    margin: 0;
-}
-section {
-    background-color: #2C2D31;
-    padding: 0;
-    width: 100%;
-    margin: 0;
-}
+
 h1 {
     background-color: #526D82;
     color: #eceff1;
@@ -40,7 +78,7 @@ h1 {
     text-transform: uppercase;
     font-size: 100%;
     font-family: fantasy;
-}
+} */
 h2 {
     background-color: #526D82;
     color: #eceff1;
@@ -55,19 +93,6 @@ h2 {
 a {
     color: #eceff1;
     
-}
-code {
-    color: white;
-    background-color: #37474f;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 1px;
-    border-radius: 15px;
-    margin: 5px;
-    border: 1px solid black;
-    font-family: serif;
-    text-transform: capitalize;
-    font-size: 100%;
 }
 p {
     color: silver;
@@ -144,4 +169,18 @@ span li a:hover:not(.active) {
 span li a.active {
   color: white;
   background-color: #04AA6D;
+}
+#skyspin {
+    transition: transform 0.5s ease-in-out;
+}
+#skyspin:hover {
+    transform: rotate(360deg);
+}
+#skyspin {
+    width: 10%;
+    height: 10%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+    left: 90%;
 }
