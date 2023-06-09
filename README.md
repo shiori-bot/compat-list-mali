@@ -4,7 +4,6 @@ A unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility m
 <br>
 <hr>
 <br>
-[**Official section**](#official-entries)
 
 # Official entries
 
