@@ -1,26 +1,9 @@
-# [Strato](https://github.com/strato-emu/strato) compaitbility list [v0]
-
-## About the list
 
 A unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility may differ for non-dimensity Mali chips
 
 <br>
-<a href="#update-v0-changelog"><img id="skyspin" src="/compat-list-mali/assets/images/strato.png" alt="strato"></a>
-
-### Information
-
-[**Update v0 changelog**](#update-v0-changelog)
-
-[**What the statuses mean**](#what-the-statuses-mean)
-
-[**More info**](#more-info)
-
-[**Stats**](#stats)
-
+<hr>
 <br>
-
-## Sections
-
 [**Official section**](#official-entries)
 
 # Official entries
@@ -440,40 +423,3 @@ Bowser fury 20-30Fps 'Docked'  (mtk 8100)
 - ``Ship of Harkanian``
 > Status - Boots
 >>**Note** - Logs created, skyline missing necessary requirements
-
-<br><br>
-
-
-## Update v0 Changelog
-
-* Rebranded to strato compatibility list
-
-<br>
-
-## What the statuses mean
-
-* ``Nothing`` - Opens, no logs created
-* ``Boots`` - Game opens, usually doesn't progress far
-* ``In-game`` - Not reported as being finishable, usually has bugs
-* ``Playable`` - Reported as finishable
-* ``Perfect`` - No bugs
- 
-<br>
-
-## More info
-
-Tested on Mali g77 mc9 - [**Wumbee**](https://github.com/Wumbee01)
-
-Used device [here](https://m.gsmarena.com/xiaomi_11t-11099.php)
-
-<br>
-
-## Stats
-
-* [``Official section``](#official-entries) - 71 entries (Wumbee)
-
-* [``Unofficial section``](#unofficial-entries) - 26 entries (Tanos) + 3 entries (yusef.sarkhani)
-
-* [``Homebrew section``](#homebrew-entries) - 3 entries (Wumbee) 
-
-* ``Total entries`` - 103 entries (Wumbee, Tanos, yusef.sarkhani)

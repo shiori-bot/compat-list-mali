@@ -6,20 +6,8 @@ body {
     padding: 0;
     width: 100%;
     margin: 0;
-/*    overflow: hidden;*/
 }
-.language-plaintext {
-    color: white;
-    background-color: #37474f;
-    padding: 0 10px;
-    border-radius: 15px;
-    border: 1px solid black;
-    font-family: serif;
-    text-transform: capitalize;
-    font-size: 90%;
-    margin: 0;
-}
-#strato-compaitbility-list-v0 {
+#strato-compaitbility-list {
     background-color: #526D82;
     color: #eceff1;
     border: 1px solid black;
@@ -33,6 +21,7 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    overflow: hidden;
 }
 h1 {
     background-color: #526D82;
@@ -44,41 +33,9 @@ h1 {
     text-transform: uppercase;
     font-size: 100%;
     font-family: fantasy;
-    position: -webkit-sticky;
-    position: sticky;
+    margin-top: 0;
     top: 0;
 }
-/* button {
-  border-radius: 50%;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  appearance: none;
-  background-color: inherit;
-}
-.menu {
-    position: absolute;
-    left: 90%;
-    top: 175px;
-}
-button {
-    transition: transform 0.5s ease-in-out;
-}
-button:hover {
-    transform: rotate(360deg);
-}
-
-h1 {
-    background-color: #526D82;
-    color: #eceff1;
-    border: 1px solid black;
-    padding: 2px;
-    border-radius: 15px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 100%;
-    font-family: fantasy;
-} */
 h2 {
     background-color: #526D82;
     color: #eceff1;
@@ -89,6 +46,17 @@ h2 {
     text-transform: uppercase;
     font-size: 85%;
     font-family: fantasy;
+}
+.language-plaintext {
+    color: white;
+    background-color: #37474f;
+    padding: 0 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-family: serif;
+    text-transform: capitalize;
+    font-size: 90%;
+    margin: 0;
 }
 a {
     color: #eceff1;
@@ -130,57 +98,11 @@ blockquote {
     width: 80%;
     font-size: 100%;
 }
-.content {
-  padding: 0;
-  border: none;
-  display: none;
-  overflow: hidden;
-  background-color: black;
-}
-.mbimg {
+#logo {
+    float: left;
     width: 20px;
-    height: 20px;
+    z-index: 99;
+    animation: rotator 2s infinite;
 }
-span ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  background-color: #2C2D31;
-}
-
-span li {
-  float: left;
-}
-
-span li a {
-  display: block;
-  color: #666;
-  text-align: center;
-  padding: 0px 16px;
-  text-decoration: none;
-}
-
-span li a:hover:not(.active) {
-  background-color: #ddd;
-}
-
-span li a.active {
-  color: white;
-  background-color: #04AA6D;
-}
-#skyspin {
-    transition: transform 0.5s ease-in-out;
-}
-#skyspin:hover {
-    transform: rotate(360deg);
-}
-#skyspin {
-    width: 10%;
-    height: 10%;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 5%;
-    left: 90%;
-}
+@keyframes rotator {
+  100% {transform: rotate(360deg);}
