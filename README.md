@@ -1,9 +1,3 @@
-[Official](#official-entries)
-<br>
-[Unofficial](#unofficial-entries)
-<br>
-[Homebrew](#homebrew-entries)
-
 A unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility may differ for non-dimensity Mali chips
 
 <br>
