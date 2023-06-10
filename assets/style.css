@@ -3,13 +3,16 @@ body {
     padding: 0;
     width: 100%;
     margin: 0;
+    position: sticky;
+    top: 0;
+    border: 1px solid black;
     text-align: center;
+    cursor: pointer;
 }
 h1 {
     background-color: #526D82;
     color: #eceff1;
-    border: 0 solid black;
-    border-right: 1px;
+    border: 0px solid black;
     padding: 2px;
     margin: 0 10% 10px 10%;
     border-radius: 10px;
@@ -21,7 +24,6 @@ h1 {
     position: -webkit-sticky;
     position: sticky;
     top: 1px;
-    overflow: hidden;
 }
 h2 {
     background-color: #526D82;
@@ -50,11 +52,11 @@ h2 {
     top: 0;
 }
 #strato-compaitbility-list button {
-    width: 20px;
-    height: 20px;
+    width: 18px;
     background: none;
+    height: 18px;
     padding: 0;
-    margin: 0;
+    font-size: 8%;
     float: right;
     border: none;
 }
@@ -74,13 +76,7 @@ a {
 }
 p {
     color: silver;
-    font-family: serif;
-    text-align: center;
-    font-size: 85%;
-}
-ul p {
-    color: silver;
-    font-family: serif;
+    font-family: 'Merriweather', serif;
     text-align: left;
     font-size: 85%;
 }
@@ -118,35 +114,12 @@ blockquote {
 #logo {
     float: left;
     width: 20px;
-    z-index: 98;
+    z-index: 99;
     border-radius: 50%;
     margin-right: -20px;
     margin-left: 0;
     animation: rotator 5s 1s infinite;
 }
 @keyframes rotator {
-  30%, 100% {transform: rotate(360deg);}
-}
-#menu {
-    background-color: #2C2D31;
-    z-index: 99;
-    width: 19%;
-    border: 1px solid grey;
-    border-radius: 5px;
-    margin: 0 1% 0 80%;
-    padding: 0;
-}
-#menu ul li {
-    background-color: black;
-    color: white;
-    display: block;
-    list-style-type: none;
-}
-#menu ul {
-    margin: 0;
-    padding: 0;
-}
-table, tr, th, td {
-    border: 0px;
-    text-align: left;
+  30%, 100% {transform: rotate(360deg);
 }

@@ -1,4 +1,11 @@
-
+<link rel="stylesheet" href="https://shiori-bot.github.io/compat-list-mali/assets/css/style.css" type="text/css">
+<h1 id="strato-compaitbility-list"><a href="https://github.com/strato-emu/strato"><img src="https://shiori-bot.github.io/compat-list-mali/assets/images/strato.png" alt="strato" id="logo"></a>Strato compaitbility list<button type="button" id="menum" onclick="mainMenu()">☰</button>
+</h1>
+<div style="display: none; position: fixed; overflow: hidden;" id="menu">
+<ul>
+    <li>its menu</li>
+</ul>
+</div>
 A unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility may differ for non-dimensity Mali chips
 
 <br>
@@ -422,3 +429,6 @@ Bowser fury 20-30Fps 'Docked'  (mtk 8100)
 - ``Ship of Harkanian``
 > Status - Boots
 >>**Note** - Logs created, skyline missing necessary requirements
+
+
+<script src="https://shiori-bot.github.io/compat-list-mali/assets/js/script.js"></script>
