@@ -174,7 +174,7 @@ A unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility m
 - ``Owlboy``
 > Status - Perfect
 
-- ``Pokémon brilliant diamond``
+- ``Pokemon brilliant diamond``
 > Status - Nothing
 >>**Note** - Opens before exiting the game, no logs created
 
@@ -182,7 +182,7 @@ A unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility m
 > Status - In-game
 >>Major graphical glitches, deadlock in chamber near the end
 
-- ``Pokémon: Lets go eevee``
+- ``Pokemon: Lets go eevee``
 > Status - Playable
 >>**Note** - Mostly full fps but drops
 
