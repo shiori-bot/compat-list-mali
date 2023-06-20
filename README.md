@@ -4,8 +4,9 @@ A unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility m
 <hr>
 <br>
 
-# Official entries
 <div id="o_entries">
+
+# Official entries
 **Updated to Skyline #2513**
 
 - ``A short hike``
@@ -273,10 +274,9 @@ A unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility m
 
 </div>
 
-# Unofficial entries
-
 <div id="u_entries">
 
+# Unofficial entries
 **Updated to Skyline #2513**
 
 - ``Ace attorney``
@@ -413,10 +413,9 @@ Bowser fury 20-30Fps 'Docked'  (mtk 8100)
 
 </div>
 
-# Homebrew entries
-
 <div id="h_entries">
 
+# Homebrew entries
 - ``dhewm3-nx``
 > Status - Nothing
 >>**Note** - No logs created, exits out
