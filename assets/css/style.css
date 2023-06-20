@@ -126,22 +126,8 @@ blockquote {
 @keyframes rotator {
   30%, 100% {transform: rotate(360deg);}
 }
-#menu {
-    z-index: 99;
-    width: 54%;
-    border: 0;
-    border-radius: 0px;
-    margin: 0 1% 0 45%;
-    padding: 0;
-}
 #search {
     border: 0;
-}
-#total {
-    text-align: left;
-    margin: 2px;
-    color: white;
-    border: 0px solid black;
 }
 table, th, td {
     border: 0;
@@ -150,4 +136,56 @@ table, th, td {
 footer p {
     margin: 0;
     border: 0;
+}
+footer {
+    border-top: 3px solid white;
+    padding-top: 30px;
+    border-radius: 15px;
+}
+/* input[type=text] {
+  padding: 5px 20px;
+  margin: 2px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  
+}
+input[type=text]:focus {
+  padding: 5px 20px;
+  margin: 2px 0;
+  box-sizing: border-box;
+  border: 3px solid #555;
+  border-bottom: 2px solid red;
+  background-color: #2C2D31;
+}*/
+
+input[type=text] {
+  width: 20%;
+  padding: 3px;
+  float: right;
+  margin-right: 1%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #2C2D31;
+  border-radius: 5px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 98%;
+  outline: none;
+}
+#total {
+    background-color: #2C2D31;
+    width: 40%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    float: left;
+    padding: 2px;
+    margin: 0;
+}
+#menu {
+    z-index: 99;
+    width: 100%;
 }

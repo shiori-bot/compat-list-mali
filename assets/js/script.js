@@ -2,10 +2,14 @@ function mainMenu() {
     var m = document.getElementById("menu");
     var b = document.getElementById("listMain");
     if (m.style.display === "none") {
-        m.style.display = "block"
+        m.style.display = "inline"
     } else {
         m.style.display = "none";
     }
+}
+function totalCount() {
+    var total = document.getElementById("listMain").getElementsByTagName("li").length
+    document.getElementById("total").innerHTML = "total games: " + total;
 }
 function search() {
     var input, filter, ul, li, code, i, txtValue;
@@ -23,8 +27,5 @@ function search() {
         }
     }
 }
-/*function onload() {
-    var total = document.getElementById("u-list").getElementsByTagName("li").length
-    document.getElementById("total").innerHTML = total + ". total entries";
-    document.getElementById("tester").innerHTML = testers;
-}*/
+
+/* document.getElementById("tester").innerHTML = testers; */
