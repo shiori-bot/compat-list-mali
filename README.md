@@ -1,8 +1,6 @@
 A unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility may differ for non-dimensity Mali chips
 
 <br>
-<hr>
-<br>
 
 # Official entries
 **Updated to Skyline #2513**
@@ -418,5 +416,3 @@ Bowser fury 20-30Fps 'Docked'  (mtk 8100)
 - ``Ship of Harkanian``
 > Status - Boots
 >>**Note** - Logs created, skyline missing necessary requirements
-
-</div>
