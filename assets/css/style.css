@@ -33,7 +33,7 @@ h2 {
     font-size: 85%;
     font-family: fantasy;
 }
-#strato-compaitbility-list {
+#strato-compatibility-list {
     background-color: #526D82;
     color: #eceff1;
     border: 1px solid black;
@@ -48,7 +48,7 @@ h2 {
     position: sticky;
     top: 0;
 }
-#strato-compaitbility-list button {
+#strato-compatibility-list button {
     width: 20px;
     height: 20px;
     background: none;
@@ -188,4 +188,24 @@ input[type=text]:focus {
 #menu {
     z-index: 99;
     width: 100%;
+}
+details > summary {
+  padding: 2px;
+  width: 30%;
+  font-size: 10px;
+  background-color: silver;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: grey;
+  border: 1px solid black;
+  margin: 0;
+  width: 50%;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  color: black;
+  
 }

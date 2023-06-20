@@ -3,7 +3,7 @@ Unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility may
 <details>
     <summary>ChangeLog version 0</summary>
 
-    <p><code>complete renewal</code></p>
+    <p><code>completely renewed!</code></p>
 </details>
 
 <br>
