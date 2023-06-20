@@ -4,8 +4,6 @@ A unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility m
 <hr>
 <br>
 
-<div id="o_entries">
-
 # Official entries
 **Updated to Skyline #2513**
 
@@ -272,9 +270,6 @@ A unofficial compatibility list for Mali by Wumbee and Hakureii. Compatibility m
 > Status - Playable
 >>**Note** - Mostly 60 FPS, Difficult to beat because of lag
 
-</div>
-
-<div id="u_entries">
 
 # Unofficial entries
 **Updated to Skyline #2513**
@@ -410,10 +405,6 @@ Bowser fury 20-30Fps 'Docked'  (mtk 8100)
 > Status - Playable(?)
 >> Tested by: **tanos#4079**
 >>>**Note** - 30 fps
-
-</div>
-
-<div id="h_entries">
 
 # Homebrew entries
 - ``dhewm3-nx``
